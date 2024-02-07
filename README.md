@@ -13,13 +13,13 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
  npm i -g @ionic/cli native-run cordova-res
  ```
 
-## Dentro del proyecto angular:
+Dentro del proyecto angular:
 
 ```bash
-ng add @ionic/angular`
+ng add @ionic/angular
 ```
 
-ahora se pueden utilizar los componetes de ionicframework (https://ionicframework.com/docs/components)
+ahora se pueden utilizar los componetes de [ionicframework](https://ionicframework.com/docs/components)
 
 en app.component.html:
 ```html
@@ -35,14 +35,14 @@ en app.component.html:
 ng add @capacitor/angular
 ```
 
-## Para ocupar los plugins(https://capacitorjs.com/docs/apis):
+## Para ocupar los [plugins de capacitor](https://capacitorjs.com/docs/apis):
 ```bash
  npm install @capacitor/camera
  ```
 
 ## Para hacer funcionar la camara o el toast, por web tambien:
 ```bash
-npm install @ionic/pwa-elements`
+npm install @ionic/pwa-elements
 ```
 
  y en main.ts: 
@@ -54,7 +54,7 @@ defineCustomElements(window);
  ```
 
 
-## Para ANDROID (se necesita tener android studio instalado) (https://capacitorjs.com/docs/basics/workflow):
+## [Capacitor para Android](https://capacitorjs.com/docs/basics/workflow) (se necesita tener android studio instalado) :
 ```bash
 npm i @capacitor/android
 
